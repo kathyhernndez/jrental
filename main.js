@@ -13,3 +13,19 @@ navLinks.addEventListener("click", () => {
     navLinks.classList.remove("open");
     menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
+
+const scrollRevealOption = {
+    distance: "50px",
+    origin: "bottom",
+    duration: 1000,
+};
+
+// header container
+ScrollReveal().reveal(".header__container p", {
+    ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".header__container h1", {
+    ...scrollRevealOption,
+    delay: 500,
+});

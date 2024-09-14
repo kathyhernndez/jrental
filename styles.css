@@ -3,7 +3,7 @@
 :root{
     --primary-color: #25d1e8;
     --primary-color-dark: #1cb1c5;
-    --text-dark: #0c0a09;
+    --text-dark:  #0c0a09;
     --text-light: #78716c;
     --white: #ffffff;
     --max-width: 1500px;
@@ -153,9 +153,6 @@ nav{
     transition: 0.3s;
 }
 
-.nav__links li:hover{
-    width: 10%;
-}
 
 .nav__btn {
     display: none;
@@ -184,6 +181,57 @@ nav{
 .header__container h1 span{
     color: var(--primary-color);
 }
+
+.booking__container {
+     padding-block: 0;
+}
+
+.booking__form{
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    border-radius: 10px;
+    transform: translateY(-50%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input__group{
+    flex: 1 1 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input__group span{
+    font-size: 1.75rem;
+    color: var(--primary-color);
+}
+
+.input__group label{
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.input__group input{
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    padding-block: 5px;
+    color: var(--text-dark);
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+}
+
+.input__group input::placeholder{
+    color: var(--text-light);
+}
+
 @media (width > 768px) {
     nav {
         padding: 2rem 1rem;
