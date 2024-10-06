@@ -414,6 +414,7 @@
   
   .explore :is(.section__subheader, .section__header) {
     text-align: center;
+    padding: 25px;
     margin-inline: auto;
   }
   
@@ -514,15 +515,20 @@
 }
 
 .blog-post {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 40px auto;
   padding: 90px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.blog-post h1 {
+.blog-post h1{
   text-align: center;
+}
+
+
+.blog-post p{
+  padding: 1%;
 }
 
 .intro {
@@ -541,6 +547,7 @@
   height: auto;
   margin: 10px;
 }
+
 
 .align-left {
   order: -1;
