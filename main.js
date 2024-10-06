@@ -62,3 +62,13 @@ ScrollReveal().reveal(".room__card", {
     ...scrollRevealOption,
     interval: 500,
   });
+
+
+// video spaces
+
+window.addEventListener('load', function () {
+    var video = document.getElementById('myVideo');
+    video.addEventListener('play', function () {
+        console.log('El video está en reproducción');
+    });
+});
