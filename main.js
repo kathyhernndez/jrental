@@ -72,3 +72,6 @@ window.addEventListener('load', function () {
         console.log('El video está en reproducción');
     });
 });
+
+// Galery
+

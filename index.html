@@ -37,6 +37,7 @@
     </header>
 
     
+<!--- ABOUT SECTION -->
 
       <section class="section__container about__container" id="about">
         <div class="about__image">
@@ -56,12 +57,48 @@
         </div>
       </section>
 
-      <div class="video-container">
-        <video id="myVideo" controls>
-            <source src="assets/cocina.mp4" type="video/mp4">
-            Tu navegador no soporta la etiqueta de video.
-        </video>
+
+
+<!--- BOOK SECTION -->
+
+<section class="section__container booking__container" id="book">
+  <p class="section__subheader">STAY WITH US</p>
+  <h2 class="section__header">You can make your reservation with us on the platform of your choice.</h2>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Airbn</h5>
+          <p class="card-text">Airbnb is a platform that connects people who want to rent or rent a space with others who are looking for a place to stay.</p>
+          <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" class="btn btn-primary">Go to Airbn</a>
+        </div>
       </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Vrbo</h5>
+          <p class="card-text">Vrbo is a leading vacation rental platform that connects owners with travelers around the world.</p>
+          <a href="https://www.vrbo.com/4181540" class="btn btn-primary">Go to Vrbo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+      
+      <!--- VIDEO SECTION -->
+
+      <section class="section__container v_container">
+        <p class="section__subheader">EXPLORE OUR HOUSE</p>
+      <div class="video-container">
+              <video id="myVideo" controls>
+                  <source src="assets/cocina.mp4" type="video/mp4">
+                  Tu navegador no soporta la etiqueta de video.
+              </video>
+      </div>
+      </section>
+
+<!--- ROOMS SECTION -->
 
       <section class="section__container room__container" id="rooms">
         <p class="section__subheader">OUR LIVING ROOM</p>
@@ -79,6 +116,10 @@
               <button class="btn">View more</button>
             </div>
           </div>
+
+
+
+          
           <div class="room__card">
             <div class="room__card__image">
               <img src="assets/1.png" alt="room" />
@@ -88,7 +129,7 @@
               <p>
                 Experience modern comfort right on the beach.
               </p>
-              <button class="btn">View more</button>
+              <button class="btn"><a href="rooms.html">View more</a></button>
             </div>
           </div>
           <div class="room__card">
@@ -106,6 +147,10 @@
           </div>
         </div>
       </section>
+
+
+<!--- SERVICE SECTION -->
+
 
       <section class="service" id="service">
         <div class="section__container service__container">
@@ -134,30 +179,9 @@
         </div>
       </section>
 
-      <section class="section__container booking__container" id="book">
-        <p class="section__subheader">STAY WITH US</p>
-        <h2 class="section__header">You can make your reservation with us on the platform of your choice.</h2>
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Airbn</h5>
-                <p class="card-text">Airbnb is a platform that connects people who want to rent or rent a space with others who are looking for a place to stay.</p>
-                <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" class="btn btn-primary">Go to Airbn</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Vrbo</h5>
-                <p class="card-text">Vrbo is a leading vacation rental platform that connects owners with travelers around the world.</p>
-                <a href="https://www.vrbo.com/4181540" class="btn btn-primary">Go to Vrbo</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        </section>
+
+
+<!--- BEACH SECTION -->
 
       <section class="explore" id="beach">
         <p class="section__subheader">BEACH</p>
@@ -166,10 +190,78 @@
           <div class="explore__content">
             <p class="section__description">We're waiting for you</p>
             <h4>Enjoy this beautiful Florida island</h4>
-            <button class="btn">More about the island</button>
+                         
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <a href="#">More about beach</a>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><h1>Anna Maria Island</h1></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+          <p class="intro"><strong>Anna Maria Island is a barrier island on the coast of Manatee County, Florida, in the United States. It is bounded on the west by the Gulf of Mexico, on the south by Longboat Pass (which separates it from Longboat Key), on the east by Anna Maria Sound, and on the north by Tampa Bay. Anna Maria Island is approximately 7 miles (11 km) long north to south..</strong></p>
+          <div class="content">
+              <p>Anna Maria Island is Florida's hidden gem, with over 7 miles of soft white sand beaches to explore, its stunning crystal clear blue
+                  waters of the Gulf of Mexico will make your vacation unforgettable, you will be just steps away from Holmes Beach, Bradeton Beach,
+                  Coquina Beach and Longboat Key. Our location is perfect with easy access to Blake Hospital, IMG Academy, several stores within
+                  walking distance: Walmart (0.6 miles), Aldi (0.9 miles), Publix (1.2 miles), HomeGoods and Marshalls (1 mile). 
+                  </p>
+                  <p>
+              According to the Köppen climate classification, Anna Maria Island is between a tropical climate with a dry winter and a mild temperate climate that's fully humid with a hot summer.
+              </p>
+              <p>See postcard-perfect Gulf sunsets, swim, snorkel, and dive the turquoise waters, look for shells and fossilized shark teeth, take a boat tour to spot dolphins, and enjoy some of the best waterfront dining in Florida.</p>
+          </div>
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/6.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/7.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/8.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </section>
+
+
+
+<!--- FOOTER SECTION -->
 
       <footer class="footer" id="contact">
         <div class="footer-content">
