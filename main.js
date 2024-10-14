@@ -73,5 +73,24 @@ window.addEventListener('load', function () {
     });
 });
 
-// Galery
+// MODALS
+document.querySelectorAll('.openModalBtn').forEach(button => {
+    button.onclick = function() {
+        const modalId = this.getAttribute('data-modal');
+        document.getElementById(modalId).style.display = "block";
+    }
+});
+
+document.querySelectorAll('.close').forEach(span => {
+    span.onclick = function() {
+        const modalId = this.getAttribute('data-modal');
+        document.getElementById(modalId).style.display = "none";
+    }
+});
+
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        event.target.style.display = "none";
+    }
+}
 
