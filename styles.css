@@ -127,7 +127,7 @@
   }
   
   .nav__bar {
-    padding: 1rem;
+    padding: 0.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -533,7 +533,7 @@
 .blog-post {
   max-width: 1200px;
   margin: 40px auto;
-  padding: 90px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -718,8 +718,12 @@ body.modal-open {
 }
 
 @media (max-width: 600px) {
+  .logo {
+    max-width: 60px;
+  }
   .content {
       flex-direction: column;
+
   }
 
   .align-left, .align-right {
