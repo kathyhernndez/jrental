@@ -54,6 +54,7 @@
   }
   
   .btn {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
     padding: 0.75rem 1.5rem;
     outline: none;
     border: none;
@@ -71,6 +72,7 @@
   }
 
 .openModalBtn{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
   padding: 0.75rem 1.5rem;
     outline: none;
     border: none;
@@ -94,6 +96,8 @@
   a {
     text-decoration: none;
     color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    
   }
   
   .logo {
@@ -110,10 +114,15 @@
   }
   
   .header {
-    background-image: url("assets/jrental1.png");
+    background-image: url("assets/principal.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .header__page {
+    background-color: var(--primary-color);
+    background-position: center center;
   }
   
   nav {
@@ -134,7 +143,8 @@
     gap: 2rem;
     background-color: var(--primary-color);
   }
-  
+
+
   .nav__menu__btn {
     font-size: 1.5rem;
     color: var(--white);
@@ -181,7 +191,7 @@
     font-size: 1.2rem;
     color: var(--white);
     text-align: center;
-    opacity: 0.6;
+    opacity: 0.8;
   }
   
   .header__container h1 {
@@ -249,14 +259,42 @@
   .about__container {
     overflow: hidden;
     display: grid;
-    gap: 2rem;
+    gap: 2.5rem;
   }
+.about__container p{
+   text-align: justify;
+}
   
   .about__image img {
-    max-width: 450px;
+    max-width: 800px;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
   }
+
+  ul.image-list li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul.image-list li {
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+ul.image-security li{
+  background-image: url('assets/icons8-protect-48.png');
+}
+
+ul.image-amenities li{
+  background-image: url('assets/icons8-service-bell-48.png');
+}
+ul.image-rules li{
+  background-image: url('assets/icons8-check-48.png');
+}
+
+
   
   .room__grid {
     margin-top: 4rem;
@@ -547,15 +585,11 @@
   padding: 1%;
 }
 
-.intro {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
 .content {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .content img {

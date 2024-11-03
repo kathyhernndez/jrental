@@ -31,8 +31,8 @@
             <button class="btn nav__btn"><a href="#book">Book Now</a></button>
         </nav>
         <div class="section__container header__container" id="home">
-            <p>Simple - Unique - Friendly</p>
-            <h1>Make Yourself At Home <br>In Our <span>House</span>.</h1>
+            <p>Cozy - Family Friendly - Relaxing</p>
+            <h1>Enjoy With Us The Best Days Of Rest<br>In Our Beautiful Beach <span>House</span>.</h1>
         </div>
     </header>
 
@@ -41,50 +41,95 @@
 
       <section class="section__container about__container" id="about">
         <div class="about__image">
-          <img src="assets/about.jpg" alt="about" />
+          <img src="assets/14.png" alt="about" />
         </div>
         <div class="about__content">
           <p class="section__subheader">ABOUT US</p>
           <h2 class="section__header">The Best Holidays Start Here!</h2>
           <p class="section__description">
             Welcome to the quiet community of Gulf Trail Ranches, located just 8 miles 
-            from Anna Maria Island at Jrentalvacation we know howimportant it is to be 
+            from Anna Maria Island at Jrentalvacation we know how important it is to be 
             able to relax and enjoy your vacation.
           </p>
           <div class="about__btn">
-            <button class="btn"><a href="about.html">Read more</a></button>
+            <button class="openModalBtn" data-modal="modal5">Read more</button>
           </div>
+        </div>
+      </div>
+
+  <!-- MODAL 2 -->
+      <div id="modal5" class="modal">
+        <div class="modal-content blog-post">
+          <span class="close" data-modal="modal5">&times;</span>
+        
+          <!--ABOUT SECTION-->
+            <h1>Welcome to our house</h1>
+            <div class="content ">
+                <img src="assets/14.png" alt="a" class="align-left">
+                <p>
+                    Welcome to the quiet community of Gulf Trail Ranches,located just 8 miles from Anna Maria Island, with easy access to Blake Hospital, IMG Academy, restaurants. This cozy 2bedroom, 2bathroom home offers a remodeled kitchen with stainless steel appliances, solid surface countertops and a built-in breakfast bistro, the large family room is equipped with a built-in bar to enjoy good music and TV, a fenced backyard with a gas grill and a Jacuzzi/hydromassage machine for a pleasant and relaxing stay.you will be just steps away from Holmes Beach, Bradeton Beach, Coquina Beach and Longboat Key. 
+                    <br> <br>Our location is perfect with easy access to Blake Hospital, IMG Academy, several stores within walking distance: Walmart (0.6 miles), Aldi (0.9 miles), Publix (1.2 miles), HomeGoods and Marshalls (1 mile). In addition, there are many delicious local and chain restaurants to take advantage of: Mc'donalds, Culver's, Applebee's, all within 2 miles, it is an ideal vacation destination with many nearby attractions to keep everyone entertained.
+                </p>
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h2>Security</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <p><strong>Security system provided by the renowned company ADT, we have:</strong></p>
+                    <ul class="image-list image-security">
+                        <li>Three cameras strategically located in the front area, right side area and left side.</li>
+                        <li>Automated control panel that checks each of the doors and windows.</li>
+                        <li>Smart locks to avoid the use of keys.</li>
+                        <li>Highly sensitive smoke and CO2 detectors to provide you with a 100% toxic-contaminant-free environment.</li>
+                    </ul>                      
+                </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h2>Amenities</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <ul class="image-list image-amenities">
+                        <li>Air conditioning</li>
+                        <li>TV</li>
+                        <li>WIFI</li>
+                        <li>Hot Water</li>
+                        <li>Free Parking</li>
+                        <li>Washer/dryer</li>
+                    </ul>                      
+                </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h2>House rules</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <ul class="image-list image-rules">
+                        <li>Maximum capacity: 6 people</li>
+                        <li>Check-in 3:00pm</li>
+                        <li>Checkout 10:00am</li>
+                        <li>Pets are not allowed</li>
+                        <li>Smoking is not allowed inside the house</li>
+                        <li>Parties are not allowed</li>
+                    </ul>                      
+                </div>
+                </div>
+        </div>
+
         </div>
       </section>
 
 
 
-<!--- BOOK SECTION -->
-
-<section class="section__container booking__container" id="book">
-  <p class="section__subheader">STAY WITH US</p>
-  <h2 class="section__header">You can make your reservation with us on the platform of your choice.</h2>
-  <div class="row">
-    <div class="col-sm-6 mb-3 mb-sm-0">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Airbn</h5>
-          <p class="card-text">Airbnb is a platform that connects people who want to rent or rent a space with others who are looking for a place to stay.</p>
-          <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" class="btn btn-primary">Go to Airbn</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Vrbo</h5>
-          <p class="card-text">Vrbo is a leading vacation rental platform that connects owners with travelers around the world.</p>
-          <a href="https://www.vrbo.com/4181540" class="btn btn-primary">Go to Vrbo</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
       
       <!--- VIDEO SECTION -->
 
@@ -287,6 +332,100 @@
       </section>
 
 
+<!--- BEACH SECTION -->
+
+<section class="explore" id="beach">
+  <p class="section__subheader">BEACH</p>
+  <h2 class="section__header">Anna Maria Island Florida</h2>
+  <div class="explore__bg">
+    <div class="explore__content">
+      <p class="section__description">We're waiting for you</p>
+      <h4>Enjoy this beautiful Florida island</h4>
+
+      <button class="openModalBtn" data-modal="modal1">More about beach</button>
+      
+<div id="modal1" class="modal">
+<div class="modal-content blog-post">
+<span class="close" data-modal="modal1">&times;</span>
+<p class="intro"><strong>Anna Maria Island is a barrier island on the coast of Manatee County, Florida, in the United States. It is bounded on the west by the Gulf of Mexico, on the south by Longboat Pass (which separates it from Longboat Key), on the east by Anna Maria Sound, and on the north by Tampa Bay. Anna Maria Island is approximately 7 miles (11 km) long north to south..</strong></p>
+<div class="content">
+  <p>Anna Maria Island is Florida's hidden gem, with over 7 miles of soft white sand beaches to explore, its stunning crystal clear blue
+      waters of the Gulf of Mexico will make your vacation unforgettable, you will be just steps away from Holmes Beach, Bradeton Beach,
+      Coquina Beach and Longboat Key. Our location is perfect with easy access to Blake Hospital, IMG Academy, several stores within
+      walking distance: Walmart (0.6 miles), Aldi (0.9 miles), Publix (1.2 miles), HomeGoods and Marshalls (1 mile). 
+      </p>
+      <p>
+  According to the Köppen climate classification, Anna Maria Island is between a tropical climate with a dry winter and a mild temperate climate that's fully humid with a hot summer.
+  </p>
+  <p>See postcard-perfect Gulf sunsets, swim, snorkel, and dive the turquoise waters, look for shells and fossilized shark teeth, take a boat tour to spot dolphins, and enjoy some of the best waterfront dining in Florida.</p>
+</div>
+
+
+<div id="carouselExampleIndicators" class="carousel slide">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img src="assets/5.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/6.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/7.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/8.png" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+</section>
+      
+<!--- BOOK SECTION -->
+
+<section class="section__container booking__container" id="book">
+  <p class="section__subheader">STAY WITH US</p>
+  <h2 class="section__header">You can make your reservation with us on the platform of your choice.</h2>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Airbn</h5>
+          <p class="card-text">Airbnb is a platform that connects people who want to rent or rent a space with others who are looking for a place to stay.</p>
+          <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" class="btn btn-primary">Go to Airbn</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Vrbo</h5>
+          <p class="card-text">Vrbo is a leading vacation rental platform that connects owners with travelers around the world.</p>
+          <a href="https://www.vrbo.com/4181540" class="btn btn-primary">Go to Vrbo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
 <!--- SERVICE SECTION -->
 
 
@@ -319,72 +458,6 @@
 
 
 
-<!--- BEACH SECTION -->
-
-      <section class="explore" id="beach">
-        <p class="section__subheader">BEACH</p>
-        <h2 class="section__header">Anna Maria Island Florida</h2>
-        <div class="explore__bg">
-          <div class="explore__content">
-            <p class="section__description">We're waiting for you</p>
-            <h4>Enjoy this beautiful Florida island</h4>
-
-            <button class="openModalBtn" data-modal="modal1">More about beach</button>
-            
-<div id="modal1" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="modal1">&times;</span>
-      <p class="intro"><strong>Anna Maria Island is a barrier island on the coast of Manatee County, Florida, in the United States. It is bounded on the west by the Gulf of Mexico, on the south by Longboat Pass (which separates it from Longboat Key), on the east by Anna Maria Sound, and on the north by Tampa Bay. Anna Maria Island is approximately 7 miles (11 km) long north to south..</strong></p>
-    <div class="content">
-        <p>Anna Maria Island is Florida's hidden gem, with over 7 miles of soft white sand beaches to explore, its stunning crystal clear blue
-            waters of the Gulf of Mexico will make your vacation unforgettable, you will be just steps away from Holmes Beach, Bradeton Beach,
-            Coquina Beach and Longboat Key. Our location is perfect with easy access to Blake Hospital, IMG Academy, several stores within
-            walking distance: Walmart (0.6 miles), Aldi (0.9 miles), Publix (1.2 miles), HomeGoods and Marshalls (1 mile). 
-            </p>
-            <p>
-        According to the Köppen climate classification, Anna Maria Island is between a tropical climate with a dry winter and a mild temperate climate that's fully humid with a hot summer.
-        </p>
-        <p>See postcard-perfect Gulf sunsets, swim, snorkel, and dive the turquoise waters, look for shells and fossilized shark teeth, take a boat tour to spot dolphins, and enjoy some of the best waterfront dining in Florida.</p>
-    </div>
-
-      
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/5.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/6.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/7.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/8.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-    </div>
-  </div>
-
-          </div>
-        </div>
-      </section>
 
 
 
