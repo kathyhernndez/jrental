@@ -347,17 +347,12 @@
 <div id="modal1" class="modal">
 <div class="modal-content blog-post">
 <span class="close" data-modal="modal1">&times;</span>
-<p class="intro"><strong>Anna Maria Island is a barrier island on the coast of Manatee County, Florida, in the United States. It is bounded on the west by the Gulf of Mexico, on the south by Longboat Pass (which separates it from Longboat Key), on the east by Anna Maria Sound, and on the north by Tampa Bay. Anna Maria Island is approximately 7 miles (11 km) long north to south..</strong></p>
+<p class="intro"><strong>Anna Maria Island is located on the coast of Manatee County in Florida, surrounded by the Intracoastal Waterway, Tampa Bay and the Gulf of Mexico. It has been described as a “piece of paradise” because of the blue color of its beaches. It is a strip of just over 11 kilometers of beautiful white sand beaches and turquoise waters. This destination is perfect for families due to its many activities for children, but also for spending a few days relaxing. The island is made up of three cities: Anna Maria City, Holmes Beach and Bradenton Beach. All unique communities blend effortlessly to create a friendly and welcoming atmosphere. Anna Maria Island can be explored by bike or on foot to enjoy the sunset.</strong></p>
 <div class="content">
-  <p>Anna Maria Island is Florida's hidden gem, with over 7 miles of soft white sand beaches to explore, its stunning crystal clear blue
-      waters of the Gulf of Mexico will make your vacation unforgettable, you will be just steps away from Holmes Beach, Bradeton Beach,
-      Coquina Beach and Longboat Key. Our location is perfect with easy access to Blake Hospital, IMG Academy, several stores within
-      walking distance: Walmart (0.6 miles), Aldi (0.9 miles), Publix (1.2 miles), HomeGoods and Marshalls (1 mile). 
-      </p>
-      <p>
-  According to the Köppen climate classification, Anna Maria Island is between a tropical climate with a dry winter and a mild temperate climate that's fully humid with a hot summer.
+  
+  <p>
+    The Anna Maria City Pier, one of the island's main attractions. Another way to enjoy the island is to take the tram that runs all around the site, stopping at popular spots along the way. It also offers different types of activities for families: rent kayaks, paddle boards and bicycles to explore the mangrove tunnels or nature reserves.
   </p>
-  <p>See postcard-perfect Gulf sunsets, swim, snorkel, and dive the turquoise waters, look for shells and fossilized shark teeth, take a boat tour to spot dolphins, and enjoy some of the best waterfront dining in Florida.</p>
 </div>
 
 
@@ -367,6 +362,8 @@
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
 </div>
 <div class="carousel-inner">
 <div class="carousel-item active">
@@ -380,6 +377,9 @@
 </div>
 <div class="carousel-item">
   <img src="assets/8.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/9.png" class="d-block w-100" alt="...">
 </div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -404,27 +404,14 @@
 <section class="section__container booking__container" id="book">
   <p class="section__subheader">STAY WITH US</p>
   <h2 class="section__header">You can make your reservation with us on the platform of your choice.</h2>
-  <div class="row">
-    <div class="col-sm-6 mb-3 mb-sm-0">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Airbn</h5>
-          <p class="card-text">Airbnb is a platform that connects people who want to rent or rent a space with others who are looking for a place to stay.</p>
-          <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" class="btn btn-primary">Go to Airbn</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Vrbo</h5>
-          <p class="card-text">Vrbo is a leading vacation rental platform that connects owners with travelers around the world.</p>
-          <a href="https://www.vrbo.com/4181540" class="btn btn-primary">Go to Vrbo</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="logo-container"> 
+    <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" target="_blank" class="logo-link"> <img src="assets/airbn.png" alt="Logo 1" class="logo__ar"> </a> 
+    <a href="https://www.vrbo.com/4181540" target="_blank" class="logo-link"> <img src="assets/VRBO.png" alt="Logo 2" class="logo__ar"> </a> </div>
+  
+  
   </section>
+
+
 
 <!--- SERVICE SECTION -->
 
@@ -456,17 +443,33 @@
         </div>
       </section>
 
+ <!--- CONTACT SECTION -->
 
+ <section class="section__container contact__container" id="contact">
+  <p class="section__subheader">CONTACT US</p>
+  <h2 class="section__header">Send us a message if you have any question.</h2>
+  <form id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">E-mail address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <button type="submit" class="button__form">Send Message</button>
+</form>
+  </section>
 
 
 
 
 <!--- FOOTER SECTION -->
 
-      <footer class="footer" id="contact">
+      <footer class="footer">
         <div class="footer-content">
             <div class="contact-section">
-              <h3>CONTACT US:</h3>
               <p>Telephone: 941-334-2481</p>
               <p>Email: <a href="mailto:jrentalvacation@gmail.com">jrentalvacation@gmail.com</a></p>
               <p>Address: 4507 60th Street West, Bradenton Fl 34208.</p>
