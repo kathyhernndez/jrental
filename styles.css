@@ -264,9 +264,13 @@
 .about__container p{
    text-align: justify;
 }
+
+.img_about{
+  border-radius: 10px;
+}
   
   .about__image img {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     border-radius: 10px;
   }
@@ -894,6 +898,8 @@ input, textarea {
 .button__form:hover {
   background-color: var(--primary-color-dark);
 }
+
+
 
 /* logos styles */ 
 .logo-container { 
