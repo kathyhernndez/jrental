@@ -870,9 +870,9 @@ body.modal-open {
 /* FORM CONTACT */
 form {
   background: #fff;
-  padding: 20px;
+  padding: 100px;
   border-radius: 10px;
-  width: 40%;
+  width: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
 }
@@ -883,11 +883,17 @@ label {
 }
 
 input, textarea {
-  width: 100%;
+  width: 350px;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
+}
+
+.contact__container p{
+  width: 350px;
+  padding: 5px;
+  text-align: center;
 }
 
 .button__form {
@@ -938,10 +944,14 @@ input, textarea {
   
   
   .contact__container {
-    padding-block: 50px;
+    padding-block: 80px;
     margin-inline: auto;
   }
 
-
-
+  .contact__container div{
+    display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
   
+  }
+
