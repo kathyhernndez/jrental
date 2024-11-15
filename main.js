@@ -20,7 +20,10 @@ const scrollRevealOption = {
     duration: 1000,
 };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 04f1b07ca682efb1f153587ab8066631ab57eee6
 // header container
 ScrollReveal().reveal(".header__container p", {
     ...scrollRevealOption,

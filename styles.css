@@ -802,10 +802,13 @@ body.modal-open {
       align-items: center;
       justify-content: space-between;
     }
+<<<<<<< HEAD
 
     .nav.logo{
       justify-content: right;
     }
+=======
+>>>>>>> 04f1b07ca682efb1f153587ab8066631ab57eee6
   
     .nav__bar {
       padding: 0;
