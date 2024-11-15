@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+    <title>JRental Vacations</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__bar">
+                <div class="logo">
+                    <a href="#"><img src="assets/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#beach">Beach</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book">Book Now</a></li>
+            </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <p>Cozy - Family Friendly - Relaxing</p>
+            <h1>Enjoy With Us The Best Days Of Rest<br>In Our Beautiful Beach <span>House</span>.</h1>
+        </div>
+    </header>
+
+    
+<!--- ABOUT SECTION -->
+
+      <section class="section__container about__container" id="about">
+        <div class="about__image">
+          <img src="assets/14.png" alt="about"/>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">The Best Holidays Start Here!</h2>
+          <p class="section__description">
+            Welcome to the quiet community of Gulf Trail Ranches, located just 8 miles 
+            from Anna Maria Island at Jrentalvacation we know how important it is to be 
+            able to relax and enjoy your vacation.
+          </p>
+          <div class="about__btn">
+            <button class="openModalBtn" data-modal="modal5">Read more</button>
+          </div>
+        </div>
+      </div>
+
+  <!-- MODAL 2 -->
+      <div id="modal5" class="modal">
+        <div class="modal-content blog-post">
+          <span class="close" data-modal="modal5">&times;</span>
+        
+          <!--ABOUT SECTION-->
+          <h1 class="intro"><strong>Welcome to our house</strong></h1>
+          <img src="assets/14.png" class="img_about">
+          <div class="content">
+            
+            <p>
+              Welcome to the quiet community of Gulf Trail Ranches,located just 8 miles from Anna Maria Island, with easy access to Blake Hospital, IMG Academy, restaurants. This cozy 2bedroom, 2bathroom home offers a remodeled kitchen with stainless steel appliances, solid surface countertops and a built-in breakfast bistro, the large family room is equipped with a built-in bar to enjoy good music and TV, a fenced backyard with a gas grill and a Jacuzzi/hydromassage machine for a pleasant and relaxing stay.you will be just steps away from Holmes Beach, Bradeton Beach, Coquina Beach and Longboat Key. 
+              <br> <br>Our location is perfect with easy access to Blake Hospital, IMG Academy, several stores within walking distance: Walmart (0.6 miles), Aldi (0.9 miles), Publix (1.2 miles), HomeGoods and Marshalls (1 mile). In addition, there are many delicious local and chain restaurants to take advantage of: Mc'donalds, Culver's, Applebee's, all within 2 miles, it is an ideal vacation destination with many nearby attractions to keep everyone entertained.
+          </p>
+          </div>
+          
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h2>Security</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <p><strong>Security system provided by the renowned company ADT, we have:</strong></p>
+                    <ul class="image-list image-security">
+                        <li>Three cameras strategically located in the front area, right side area and left side.</li>
+                        <li>Automated control panel that checks each of the doors and windows.</li>
+                        <li>Smart locks to avoid the use of keys.</li>
+                        <li>Highly sensitive smoke and CO2 detectors to provide you with a 100% toxic-contaminant-free environment.</li>
+                    </ul>                      
+                </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h2>Amenities</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <ul class="image-list image-amenities">
+                        <li>Air conditioning</li>
+                        <li>TV</li>
+                        <li>WIFI</li>
+                        <li>Hot Water</li>
+                        <li>Free Parking</li>
+                        <li>Washer/dryer</li>
+                    </ul>                      
+                </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h2>House rules</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <ul class="image-list image-rules">
+                        <li>Maximum capacity: 6 people</li>
+                        <li>Check-in 3:00pm</li>
+                        <li>Checkout 10:00am</li>
+                        <li>Pets are not allowed</li>
+                        <li>Smoking is not allowed inside the house</li>
+                        <li>Parties are not allowed</li>
+                    </ul>                      
+                </div>
+                </div>
+        </div>
+
+        </div>
+      </section>
+
+
+
+      
+      <!--- VIDEO SECTION -->
+
+      <section class="section__container v_container">
+        <p class="section__subheader">EXPLORE OUR HOUSE</p>
+      <div class="video-container">
+              <video id="myVideo" controls>
+                  <source src="assets/video.mp4" type="video/mp4">
+                  Tu navegador no soporta la etiqueta de video.
+              </video>
+      </div>
+      </section>
+
+<!--- ROOMS SECTION -->
+
+      <section class="section__container room__container" id="rooms">
+        <p class="section__subheader">OUR LIVING ROOM</p>
+        <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+        <div class="room__grid">
+          <div class="room__card">
+            <div class="room__card__image">
+              <img src="assets/3.png" alt="room" />
+            </div>
+            <div class="room__card__details">
+              <h4>Comfortable rooms to rest</h4>
+              <p>
+                Enjoy our comfortable and spacious rooms.
+              </p>
+              
+<button class="openModalBtn" data-modal="modal2">View Rooms</button>
+
+            </div>
+          </div>
+
+      <!-- MODAL 2 -->
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <span class="close" data-modal="modal2">&times;</span>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Bedrooms & bathrooms</h1>
+              <strong><p>Master Bedroom: King size bed, private bathroom with shower and large walk-in closet. Flat screen TV includes cable TV and all apps.</p></strong>
+              
+              <div class="carousel-container">
+                <div class="carousel-slide">
+                    <div>
+                        <img src="assets/3.png" alt="Foto 1">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/rooms/38.png" alt="Foto 2">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/rooms/39.png" alt="Foto 3">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/rooms/36.png" alt="Foto 4">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/rooms/42.png" alt="Foto 5">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/rooms/37.png" alt="Foto 6">
+                       
+                    </div>
+                </div>
+                <button class="carousel-button prev">❮</button>
+                <button class="carousel-button next">❯</button>
+            </div>
+
+
+
+            </div>
+          </div>
+          
+
+
+          
+          <div class="room__card">
+            <div class="room__card__image">
+              <img src="assets/1.png" alt="room" />
+            </div>
+            <div class="room__card__details">
+              <h4>Family sharing spaces</h4>
+              <p>
+                Experience modern comfort right on the beach.
+              </p>
+        <button class="openModalBtn" data-modal="modal3">Family Spaces</button>
+            </div>
+          </div>
+
+<!-- MODAL 3 -->
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="modal3">&times;</span>
+    <h1 class="modal-title fs-5" id="staticBackdropLabel">Family Spaces</h1>
+    <strong><p>-Fully equipped modern kitchen with updated appliances, we have the necessary kitchen equipment for your stay.
+<br>
+      -Mini-living room decorated in a beach style where you can enjoy TV or a movie in the comfort of our sofa.
+      <br>
+      -Large family room with a dining room and built-in bar, ideal for enjoying the music you like the most. Each one has a 65-inch flat screen TV and a sound system (home cinema) so you can spend really pleasant moments.
+      <br>
+      -Renovated garage with electric gate and space for one car, additionally you can park 2 vehicles outside the house, in the garage we have a washer and dryer as well as essential items for the beach (chairs, cart, umbrella, cooler and various games), ready to guarantee the fun of a day at the beach.</p></strong>
+    
+
+    <!--CARRUSEL -->
+    
+    <div class="carousel-container">
+      <div class="carousel-slide">
+          <div>
+              <img src="assets/spaces/24.png" alt="Foto 1">
+              
+          </div>
+          <div>
+              <img src="assets/spaces/25.png" alt="Foto 2">
+              
+          </div>
+          <div>
+              <img src="assets/spaces/21.png" alt="Foto 3">
+              
+          </div>
+          <div>
+              <img src="assets/spaces/22.png" alt="Foto 4">
+              
+          </div>
+          <div>
+              <img src="assets/spaces/18.png" alt="Foto 5">
+              
+          </div>
+          <div>
+              <img src="assets/spaces/19.png" alt="Foto 6">
+              
+          </div>
+          <div>
+            <img src="assets/spaces/31.png" alt="Foto 7">
+            
+        </div>
+        <div>
+          <img src="assets/spaces/32.png" alt="Foto 8">
+          
+      </div>
+      <div>
+        <img src="assets/spaces/27.png" alt="Foto 9">
+        
+    </div>
+    <div>
+      <img src="assets/spaces/28.png" alt="Foto 10">
+      
+  </div>
+  <div>
+    <img src="assets/spaces/29.png" alt="Foto 11">
+    
+</div>
+      </div>
+      <button class="carousel-button prev">❮</button>
+      <button class="carousel-button next">❯</button>
+  </div>
+
+
+  </div>
+</div>
+
+
+          <div class="room__card">
+            <div class="room__card__image">
+              <img src="assets/4.png" alt="room" />
+            </div>
+            <div class="room__card__details">
+              <h4>Additional recreational areas</h4>
+              <p>
+                Spacious and inviting, perfect for creating cherished memories
+                with loved ones.
+              </p>
+               <!-- MODAL 4 -->
+              <button class="openModalBtn" data-modal="modal4">Additional Areas</button>
+            </div>
+          </div>
+    
+        
+          <div id="modal4" class="modal">
+            <div class="modal-content">
+              <span class="close" data-modal="modal4">&times;</span>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Additional Areas</h1>
+              <strong><p>Backyard enjoy a good coffee with a pleasant view of our grass, an ideal space with mosquito netting, comfortable chairs and a fan, and if you enjoy grilling we have a large area of land for you to prepare it while you enjoy the outdoors and share with family and friends.</p></strong>
+              
+<!--CARRUSEL -->
+
+              <div class="carousel-container">
+                <div class="carousel-slide">
+                    <div>
+                        <img src="assets/aditional/16.png" alt="Foto 1">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/aditional/17.png" alt="Foto 2">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/aditional/14.png" alt="Foto 3">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/aditional/13.png" alt="Foto 4">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/aditional/4.png" alt="Foto 5">
+                        
+                    </div>
+                    <div>
+                        <img src="assets/aditional/10.png" alt="Foto 6">
+                        
+                    </div>
+                </div>
+                <button class="carousel-button prev">❮</button>
+                <button class="carousel-button next">❯</button>
+            </div>
+
+
+          </div>
+        </div>
+
+      </section>
+
+
+<!--- BEACH SECTION -->
+
+<section class="explore" id="beach">
+  <p class="section__subheader">BEACH</p>
+  <h2 class="section__header">Anna Maria Island Florida</h2>
+  <div class="explore__bg">
+    <div class="explore__content">
+      <p class="section__description">We're waiting for you</p>
+      <h4>Enjoy this beautiful Florida island</h4>
+
+      <button class="openModalBtn" data-modal="modal1">More about beach</button>
+      
+<div id="modal1" class="modal">
+<div class="modal-content blog-post">
+<span class="close" data-modal="modal1">&times;</span>
+<p class="intro">
+  <strong>
+    The Anna Maria City Pier, one of the island's main attractions. Another way to enjoy the island is to take the tram that runs all around the site, stopping at popular spots along the way. It also offers different types of activities for families: rent kayaks, paddle boards and bicycles to explore the mangrove tunnels or nature reserves.
+  </strong>
+</p>
+<div class="content">
+  <p >Anna Maria Island is located on the coast of Manatee County in Florida, surrounded by the Intracoastal Waterway, Tampa Bay and the Gulf of Mexico. It has been described as a “piece of paradise” because of the blue color of its beaches. It is a strip of just over 11 kilometers of beautiful white sand beaches and turquoise waters. This destination is perfect for families due to its many activities for children, but also for spending a few days relaxing. The island is made up of three cities: Anna Maria City, Holmes Beach and Bradenton Beach. All unique communities blend effortlessly to create a friendly and welcoming atmosphere. Anna Maria Island can be explored by bike or on foot to enjoy the sunset.</p>
+
+  
+</div>
+
+
+<div id="carouselExampleIndicators" class="carousel slide">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img src="assets/5.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/6.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/7.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/8.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+  <img src="assets/9.png" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+</section>
+      
+<!--- BOOK SECTION -->
+
+<section class="section__container booking__container" id="book">
+  <p class="section__subheader">STAY WITH US</p>
+  <h2 class="section__header">You can make your reservation with us on the platform of your choice.</h2>
+  <div class="logo-container"> 
+    <a href="https://www.airbnb.co.ve/rooms/1165966093338586813?viralityEntryPoint=1&s=76&_set_bev_on_new_domain=1725658242_EANTgxMmJlNTU1MT&source_impression_id=p3_1725992690_P3ZqZrfPW_VnRsQ3" target="_blank" class="logo-link"> <img src="assets/airbn.png" alt="Logo 1" class="logo__ar"> </a> 
+    <a href="https://www.vrbo.com/4181540" target="_blank" class="logo-link"> <img src="assets/VRBO.png" alt="Logo 2" class="logo__ar"> </a> </div>
+  
+  
+  </section>
+
+
+
+<!--- SERVICE SECTION -->
+
+
+      <section class="service" id="service">
+        <div class="section__container service__container">
+          <div class="service__content">
+            <p class="section__subheader">SERVICES</p>
+            <h2 class="section__header">Strive Only For The Best.</h2>
+            <ul class="service__list">
+              <li>
+                <span><i class="ri-shield-star-line"></i></span>
+                Security System
+              </li>
+              <li>
+                <span><i class="fa-solid fa-house"></i></span>
+                Comfortable and Pleasant Spaces
+              </li>
+              <li>
+                <span><i class="fa-solid fa-hot-tub-person"></i></span>
+                Jacuzzi
+              </li>
+              <li>
+                <span><i class="ri-map-2-line"></i></span>
+                Nearby Tourist Sites
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+ <!--- CONTACT SECTION -->
+ 
+ <section class="section__container contact__container explore" id="contact">
+
+      <p class="section__subheader">CONTACT US</p> 
+      <h2 class="section__header">Send us a message if you have any question.</h2> 
+      <form id="contact-form"> <label for="name">Name:</label> 
+        <input type="text" id="name" name="name" required placeholder="Write your first and last name"><br><br> 
+        <label for="email">E-mail address:</label> 
+        <input type="email" id="email" name="email" required placeholder="Enter your e-mail address"><br><br> 
+        <label for="message">Message:</label> 
+        <textarea id="message" name="message" required placeholder="Write us an email with your questions, we will be pleased to answer you."></textarea><br><br> 
+        <button type="submit" class="button__form">Send Message</button> 
+      </form> 
+  
+  </section>
+
+
+
+
+<!--- FOOTER SECTION -->
+
+      <footer class="footer">
+        <div class="footer-content">
+            <div class="contact-section">
+              <p>Telephone: 941-334-2481</p>
+              <p>Email: <a href="mailto:jrentalvacation@gmail.com">jrentalvacation@gmail.com</a></p>
+              <p>Address: 4507 60th Street West, Bradenton Fl 34208.</p>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/jrentalvacation?mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/jrentalvacation/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+      
+            </div>
+
+            <div class="copyright">
+                <p>Made with <i class="fas fa-heart" style="color: red;"></i> by <a href="https://www.instagram.com/kexing_dev/" target="_blank">Kexing</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
