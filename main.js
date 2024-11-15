@@ -20,10 +20,6 @@ const scrollRevealOption = {
     duration: 1000,
 };
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 04f1b07ca682efb1f153587ab8066631ab57eee6
 // header container
 ScrollReveal().reveal(".header__container p", {
     ...scrollRevealOption,
@@ -129,15 +125,4 @@ document.querySelectorAll('.carousel-container').forEach(carousel => {
 });
 
 
-/// formulario de contacto
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    const mailtoLink = `mailto:katherineghz97@gmail.com?subject=Message of ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0D%0A%0D%0A${encodeURIComponent(email)}`;
-    window.location.href = mailtoLink;
-});
 
