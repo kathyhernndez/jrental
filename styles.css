@@ -792,7 +792,10 @@ body.modal-open {
     .room__grid {
       grid-template-columns: repeat(2, 1fr);
     }
-  
+    
+  }
+
+
 
   @media (width > 768px) {
     nav {
@@ -858,6 +861,15 @@ body.modal-open {
       grid-column: 2/3;
     }
   
+    input, textarea {
+      width: auto;
+      
+    }
+    
+    .contact__container p{
+      width: auto;
+    }
+
   }
   
   @media (width > 1024px) {
@@ -883,7 +895,7 @@ label {
 }
 
 input, textarea {
-  width: 350px;
+  width: 330px;
   padding: 10px;
   margin-bottom: 5px;
   border: 1px solid #ccc;
@@ -891,7 +903,7 @@ input, textarea {
 }
 
 .contact__container p{
-  width: 350px;
+  width: 330px;
   padding: 5px;
   text-align: center;
 }
@@ -939,7 +951,7 @@ input, textarea {
     width: 100%; 
     max-width: 250px; }
     form {
-  width: 100%; }
+  width: auto; }
   }
   
   
