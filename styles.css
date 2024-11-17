@@ -793,6 +793,7 @@ body.modal-open {
       grid-template-columns: repeat(2, 1fr);
     }
     
+
   }
 
 
@@ -861,14 +862,9 @@ body.modal-open {
       grid-column: 2/3;
     }
   
-    input, textarea {
-      width: auto;
-      
-    }
+  
     
-    .contact__container p{
-      width: auto;
-    }
+  
 
   }
   
@@ -879,9 +875,9 @@ body.modal-open {
   }
 
 /* FORM CONTACT */
-form {
+.form_contact {
   background: #fff;
-  padding: 100px;
+  padding: 50px;
   border-radius: 10px;
   width: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -894,18 +890,13 @@ label {
 }
 
 input, textarea {
-  width: 330px;
+  width: 400px;
   padding: 10px;
   margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
 
-.contact__container p{
-  width: 330px;
-  padding: 5px;
-  text-align: center;
-}
 
 .button__form {
   background-color: var(--primary-color);
@@ -949,8 +940,8 @@ input, textarea {
   .logo__ar { 
     width: 100%; 
     max-width: 250px; }
-    form {
-  width: auto; }
+    .form_contact {
+  width: 400px; }
   }
   
   
@@ -965,4 +956,3 @@ input, textarea {
   justify-content: center; 
   
   }
-
