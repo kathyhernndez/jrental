@@ -707,7 +707,7 @@ ul.image-rules li{
   }
 }
 
-.modal h1 p{
+.modal_content h1 p{
   padding: 30px;
 }
 
@@ -716,7 +716,7 @@ body.modal-open {
   overflow: hidden;
 }
 
-.modal {
+.modal_content {
   display: none;
   position: fixed;
   z-index: 1;

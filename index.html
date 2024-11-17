@@ -58,7 +58,7 @@
       </div>
 
   <!-- MODAL 2 -->
-      <div id="modal5" class="modal">
+      <div id="modal5" class="modal_content">
         <div class="modal-content blog-post">
           <span class="close" data-modal="modal5">&times;</span>
         
@@ -167,7 +167,7 @@
           </div>
 
       <!-- MODAL 2 -->
-          <div id="modal2" class="modal">
+          <div id="modal2" class="modal_content">
             <div class="modal-content">
               <span class="close" data-modal="modal2">&times;</span>
               <h1 class="modal-title fs-5" id="staticBackdropLabel">Bedrooms & bathrooms</h1>
@@ -227,7 +227,7 @@
 
 <!-- MODAL 3 -->
 
-<div id="modal3" class="modal">
+<div id="modal3" class="modal_content">
   <div class="modal-content">
     <span class="close" data-modal="modal3">&times;</span>
     <h1 class="modal-title fs-5" id="staticBackdropLabel">Family Spaces</h1>
@@ -314,7 +314,7 @@
           </div>
     
         
-          <div id="modal4" class="modal">
+          <div id="modal4" class="modal_content">
             <div class="modal-content">
               <span class="close" data-modal="modal4">&times;</span>
               <h1 class="modal-title fs-5" id="staticBackdropLabel">Additional Areas</h1>
@@ -372,7 +372,7 @@
 
       <button class="openModalBtn" data-modal="modal1">More about beach</button>
       
-<div id="modal1" class="modal">
+<div id="modal1" class="modal_content">
 <div class="modal-content blog-post">
 <span class="close" data-modal="modal1">&times;</span>
 <p class="intro">
@@ -485,20 +485,21 @@
     <form id="contact-form" action="https://formspree.io/f/xrbgkdad" method="POST">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Enter your e-mail address">
+        <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Enter your e-mail address" required>
       </div>
       <div class="mb-3 ">
         <label for="exampleFormControlInput1" class="form-label">First and Last Name</label>
-        <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Write your first and last name">
+        <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Write your first and last name" required>
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Subject</label>
-        <input type="text" class="form-control" name="subject" id="exampleFormControlInput1" placeholder="Write the subject">
+        <input type="text" class="form-control" name="subject" id="exampleFormControlInput1" placeholder="Write the subject" required>
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Write us an email with your questions, we will be pleased to answer you."></textarea>
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Write us an email with your questions, we will be pleased to answer you." required></textarea>
       </div>
+    
       <button type="submit" class="button__form">Send Message</button> 
     </form> 
   </div>

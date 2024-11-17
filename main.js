@@ -89,7 +89,7 @@ document.querySelectorAll('.close').forEach(span => {
 });
 
 window.onclick = function(event) {
-    if (event.target.classList.contains('modal')) {
+    if (event.target.classList.contains('modal_content')) {
         event.target.style.display = "none";
     }
 }
