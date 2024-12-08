@@ -46,6 +46,15 @@
     line-height: 3rem;
     color: var(--text-dark);
   }
+
+  .section__h4 {
+    max-width: 600px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: var(--text-dark);
+  }
   
   .section__description {
     max-width: 600px;
